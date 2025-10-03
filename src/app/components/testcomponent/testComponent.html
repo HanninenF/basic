@@ -1,0 +1,7 @@
+<form id="testForm" (submit)="handleSubmit($event)">
+  <input id="testInput" type="text" />
+  <button type="submit"></button>
+</form>
+<app-toggle [(isOn)]="startValue"></app-toggle>
+<p>värde if förälder: {{ startValue }}</p>
+  
