@@ -7,4 +7,3 @@ export const routes: Routes = [
       (await import('./components/testcomponent/testcomponent')).TestComponent,
   },
 ];
-
